@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginStart="-3dp"
+            android:src="@drawable/schweers_logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvUsernameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Benutzername"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginBottom="6dp"
+            app:layout_constraintBottom_toTopOf="@+id/etUsername"
+            app:layout_constraintStart_toStartOf="@+id/etUsername" />
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="85dp"
+            android:paddingLeft="15dp"
+            android:text="yafes_"
+            android:background="@drawable/et_background"
+            app:layout_constraintEnd_toEndOf="@+id/ivLogo"
+            app:layout_constraintHorizontal_bias="0.506"
+            app:layout_constraintStart_toStartOf="@+id/ivLogo"
+            app:layout_constraintTop_toBottomOf="@+id/ivLogo" />
+
+        <TextView
+            android:id="@+id/tvPasswordLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Passwort"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginBottom="6dp"
+            app:layout_constraintBottom_toTopOf="@+id/etPassword"
+            app:layout_constraintStart_toStartOf="@+id/etPassword" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="45dp"
+            android:text="yafes-"
+            android:paddingLeft="15dp"
+            android:background="@drawable/et_background"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="@+id/etUsername"
+            app:layout_constraintStart_toStartOf="@+id/etUsername"
+            app:layout_constraintTop_toBottomOf="@+id/etUsername" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="35dp"
+            android:text="LOGIN"
+            android:backgroundTint="@color/black"
+            app:layout_constraintEnd_toEndOf="@+id/etPassword"
+            app:layout_constraintStart_toStartOf="@+id/etPassword"
+            app:layout_constraintTop_toBottomOf="@+id/etPassword" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

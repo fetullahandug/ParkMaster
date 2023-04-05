@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ParkMaster</string>
+
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Paste BOTH strings as required -->
+    <string name="back4app_app_id">XAvdnr9Oz1aVRjlE16fdRLKnP4w5Nt0hEmk493es</string>
+    <string name="back4app_client_key">SP2UktyenyFFmzJlojln691vwKRT6e1joRESjmfR</string>
+</resources>

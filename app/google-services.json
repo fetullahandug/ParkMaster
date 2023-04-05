@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "731391724129",
+    "firebase_url": "https://parkmaster-11dd9-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "parkmaster-11dd9",
+    "storage_bucket": "parkmaster-11dd9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:731391724129:android:d0ccba862792316b8db820",
+        "android_client_info": {
+          "package_name": "com.example.parkmaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "731391724129-agiel301qos407dt7bbhegtkaoq3o4i8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTv0T8tqty5QEB1MNKA61-_FLqBRBMv0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "731391724129-agiel301qos407dt7bbhegtkaoq3o4i8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
